@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hexashop</title>
+    <link rel="stylesheet" href="hexashop.css" />
+  </head>
+  <body>
+    <header id="info">
+      <div id="shop_name">HEXASHOP Online Shopping</div>
+      <a href="hexashop.html" id="hm">Home</a>
+      <a href="cart.html" class="cart">Cart - <span>0</span> </a>
+      <script type="module">
+          import * as abi from './script/cart.js'
+            abi.cart_num()
+      </script>
+
+    </header>
+    <section>
+      <div class="product_details">
+        <div class="product_header">
+          <br><br>
+          <h5 class="product_no">S.NO</h5>
+          <h5 class="product_title">PRODUCT</h5>
+          <h5 class="product_img">IMAGE</h5>
+          <h5 class="product_price">PRICE</h5>
+          <h5 class="product_cancel">CANCEL</h5>
+        </div>
+        <br><br>
+        <div id="products"></div>
+        <script type="module">
+          import * as d_img from './script/cart.js'
+          d_img.display_img()
+        </script>
+        <br><br><br>
+        <div class="product_total">
+          TOTAL - <span>0</span>
+        </div>
+        <script type="module">
+            import * as total from './script/cart.js'
+            total.total_val()
+        </script>
+      </div>
+    </section>
+    <div id="check">CHECKOUT</div>
+  </body>
+</html>

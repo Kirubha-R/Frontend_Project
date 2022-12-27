@@ -1,0 +1,143 @@
+* {
+  box-sizing: content-box;
+}
+#info {
+  margin: 0 auto;
+  background-color: #c1bebe;
+  width: 1000px;
+  padding: 20px;
+  height: 30px;
+}
+#shop_name {
+  font-family: "Georgia";
+  text-shadow: 3px 0px #fad1d1;
+  font-style: italic;
+  font-size: 25px;
+}
+.cart {
+  height: 30px;
+  width: 60px;
+  background-color: rgb(99, 121,121);
+  text-align: center;
+  float: right;
+  position: absolute;
+  top: 15px;
+  margin-left: 940px;
+  margin-top: 8px;
+  text-decoration: none;
+  padding-top: 12px;
+}
+#content {
+  width: 1040px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: flex;
+  margin-top: 10px;
+  background-color: rgb(161, 199, 186);
+}
+.img {
+  background-size: cover;
+  height: 250px;
+  margin: 10px 10px 0px 20px;
+  filter: drop-shadow(4px 4px 6px gray);
+}
+.p_name,
+.price,
+.add_cart {
+  margin: 10px 30px 25px 20px;
+}
+#hm {
+  height: 30px;
+  width: 60px;
+  background-color: rgb(99, 121, 121);
+  text-align: center;
+  float: right;
+  position: absolute;
+  top: 15px;
+  margin-left: 860px;
+  margin-top: 8px;
+  text-decoration: none;
+  padding-top: 12px;
+  float: right;
+}
+
+/* CART PAGE */
+.product_details {
+  width: 60%;
+  justify-content: space-around;
+  margin: 50px auto;
+}
+.product_header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid lightgray;
+  margin: 0 auto;
+}
+.product_no{
+  width:10%;
+  text-align: center;
+}
+.product_title {
+  width:25%;
+  text-align: center;
+} 
+.product_img{
+  width:25%;
+  text-align: center;
+}
+.product_price {
+  width:20%;
+  text-align: center;
+}
+.product_cancel{
+  width: 10%;
+  text-align: center;
+}
+#products {
+  width: 100%;
+}
+
+.img_box{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto;
+  
+}
+.box_name{
+  width:25%;
+  text-align: center;
+}
+.box_pic{
+  width:25%;
+  text-align: center;
+}.box_price{
+  width:20%;
+  text-align: center;
+}
+.box_cancel{
+  width:10%;
+  text-align: center;
+  color:rgb(206, 19, 19);
+  cursor: pointer;
+}
+.product_total{
+  width: 75%;
+  text-align: right;
+}
+.box_id{
+  width:10%;
+  text-align: center;
+}
+
+#check{
+  width:85px;
+  margin:0 auto;
+  border:2px solid grey;
+  background-color: aquamarine;
+  border-radius: 15px;
+  padding: 15px;
+  cursor: pointer;
+}
